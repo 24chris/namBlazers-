@@ -7,7 +7,7 @@ import CTA from '../components/CTA'
 import Sponsors from '../components/Sponsors'
 import Footer from '../components/Footer'
 // import { PrismaClient } from '@prisma/client'
-import prisma from "../lib/prisma";
+// import prisma from "../lib/prisma";
 
 
 import {
@@ -31,7 +31,7 @@ export default function Home({articles}) {
               Latest Stories
             </p>
           </div>
-          <div className="mt-10">
+          {/* <div className="mt-10">
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
         {articles.map((article) =>(
            <div key={article.id} >
@@ -80,7 +80,7 @@ export default function Home({articles}) {
          </div>
         ))}  
         </dl>
-      </div>
+      </div> */}
         </div>
       </div>
       
